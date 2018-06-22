@@ -1,0 +1,10 @@
+img{
+  width: 90pt;
+  height: 90pt;
+
+}
+div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}

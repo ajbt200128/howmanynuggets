@@ -1,0 +1,12 @@
+<div>
+  <h3 *ngIf='nuggetSets.length>0'>
+    For a total of {{nuggetTotal}} nuggets:
+    <ul *ngFor='let nuggetSet of nuggetSets'>
+      <app-nugget-set-display [nuggetSet]='nuggetSet'></app-nugget-set-display>
+    </ul>
+    With {{dollarLeftover | currency}} left over.
+  </h3>
+  <h3 *ngIf='nuggetSets.length<=0'>
+    You can not buy any nuggets :( Sorry
+  </h3>
+</div>
