@@ -1,7 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>How Many Nuggets</h1>
-  <h2>can I buy with <app-dollarinput (emitter)="change($event)"></app-dollarinput></h2>
-  <app-nugget-display [dollar]='num'></app-nugget-display>
+<div class="outer">
+  <div class="inner">
+    <div class="container">
+      <div class="header">
+        <h1>How Many Nuggets</h1>
+        <h2>can I buy with
+          <app-dollarinput (emitter)="change($event)"></app-dollarinput>
+        </h2>
+      </div>
+      <br>
+      <app-nugget-display [dollar]='num'></app-nugget-display>
+    </div>
+  </div>
 </div>
-

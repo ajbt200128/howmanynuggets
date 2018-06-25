@@ -2,3 +2,13 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+div{
+  background: rgba(210, 210, 210, .80);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 20px;
+}
+h3{
+  text-align: center;
+}

@@ -1,14 +1,25 @@
-div {
-  width: 60%;
-  height: 60%;
-
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  margin: auto;
+div.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-
-
+div.outer{
+  height: 100%;
+}
+div.container{
+  min-block-size: 80%;
+}
+div.header{
+  background: rgba(210, 210, 210, .80);
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.header h1{
+  margin: 0px;
+}
+div.header h2{
+  margin: 0px;
+}

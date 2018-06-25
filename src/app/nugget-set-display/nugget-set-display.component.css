@@ -1,8 +1,10 @@
 img{
   width: 90pt;
   height: 90pt;
-
+  border-radius: 10px;
+  margin: 10px;
 }
+
 div{
   display:flex;
   align-items:center;
