@@ -1,6 +1,6 @@
 # Howmanynuggets
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+Website for telling how many nuggets you can buy with an inputed amount of money
 
 ## Development server
 
